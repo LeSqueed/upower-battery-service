@@ -1,0 +1,9 @@
+[Unit]
+Description=Script to notify on low battery charge or hibernate if it gets dang>
+
+[Timer]
+OnBootSec=15
+OnUnitActiveSec=1min
+
+[Install]
+WantedBy=timers.target

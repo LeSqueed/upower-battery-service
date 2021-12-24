@@ -1,0 +1,6 @@
+[Unit]
+Description=Script to notify on low battery charge or hibernate if it gets dang>
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash INSTALL_PATH/monitor.sh
